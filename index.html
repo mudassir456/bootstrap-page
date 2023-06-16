@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <div class="container-fluid bg-secondary p-4 ">
+        <div class="row">
+            <div class="col-sm d-flex align-items-center">
+                <h1><a class="text-white text-decoration-none ms-3" href="">Web Tech</a></h1>
+                <img class="rounded-circle ms-3 " src="creative-gradient-code-logo_23-2148820572.avif" alt=""
+                    style="height: 70px; width: 70px;">
+            </div>
+
+            <div class="col-sm ">
+                <ul class="d-flex mt-3 fs-5 list-inline">
+                    <li><a class="me-4 text-white text-decoration-none" href="">Home</a></li>
+                    <li><a class="me-4 text-white text-decoration-none" href="#about">About</a></li>
+                    <li><a class="me-4 text-white text-decoration-none" href="#services">Service</a></li>
+                    <li><a class="me-4 text-white text-decoration-none" href="#carouselExampleIndicators">Carousel</a></li>
+                   
+                    
+                    <div class="dropdown">
+                        <a class="me-4 text-white list-inline dropdown-toggle" href="#" role="button"
+                            id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+
+                        <ul class=" dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown 5</a></li>
+                        </ul>
+                    </div>
+                    <li><a class="me-4 text-white text-decoration-none" href="#accordionExample">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- main -->
+
+        <div class="row">
+            <div class="col-sm-5 offset-1 mt-5 pt-5">
+                <h1 class="text-white">Web Devolpement</h1>
+                <p class="text-white fs-5">Welcome to web development , we will try to satisfy you by using differents
+                    materials
+                </p>
+                <div class="d-flex align-items-center"> <button class="btn btn-light btn-lg rounded-pill">Get
+                        started</button>
+                    <a href="istockphoto-1357436888-640_adpp_is.mp4"
+                        class=" btn btn-light btn-md ms-5 text- list-inline text-decoration-none rounded-pill"> <img
+                            class="me-2 rounded-circle" src="download.png" alt=""
+                            style="height: 30px; width: 30px;">Watch video</a>
+                </div>
+            </div>
+            <div class="col-sm-5 offset-1 mt-5">
+                <img src="hero-img.svg" alt="" style="height: 300px; width: 350px;">
+            </div>
+        </div>
+        <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="photo-1504805572947-34fad45aed93.avif" class=" d-block w-100" alt="..." style="width:700px;height: 500px;">
+              </div>
+              <div class="carousel-item">
+                <img src="photo-1555949963-ff9fe0c870eb.avif" class="d-block w-100" alt="..."  style="width:700px;height: 500px;">
+              </div>
+              <div class="carousel-item">
+                <img src="photo-1616004655123-818cbd4b3143.avif" class="d-block w-100" alt="..."  style="width:700px;height: 500px;">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!-- service-->
+        <div class="row me-3 mt-5  bg-secondary" id="services">
+            <h1 class="text-center ">services</h1>
+            <div class=" card col-sm-2  me-3 ">
+
+                <a href="https://react.dev/"><img class="ms-3 mt-4" src="React-icon.svg.png" alt=""
+                        style="height: 120px;width: 150px;"> </a>
+                <hr>
+                <h3>React</h3>
+                <p>click on the logo to learn more about React js</p>
+            </div>
+            <div class=" card col-sm-2 me-3">
+                <a href="https://angular.io/"> <img class="ms-3 mt-4" src="2048px-Angular_full_color_logo.svg.png"
+                        alt="" style="height: 120px;width: 150px;"></a>
+                <hr>
+                <h3>Angular</h3>
+                <p>click on the logo to learn more about Angular</p>
+            </div>
+            <div class=" card col-sm-2 me-3">
+                <a href="https://vuejs.org/"><img class="ms-3 mt-4" src="Vue.js_Logo_2.svg.png" alt=""
+                        style="height: 120px;width: 150px;"></a>
+                <hr>
+                <h3>Vue</h3>
+                <p>click on the logo to learn more about Vue</p>
+            </div>
+            <div class=" card col-sm-2 me-3">
+                <a href="https://nodejs.org/en"><img class="ms-3 mt-4" src="2560px-Node.js_logo.svg.png" alt=""
+                        style="height: 120px;width: 150px;"></a>
+                <hr>
+                <h3>Node</h3>
+
+                <p>click on the logo to learn more about Node</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- service end -->
+
+    <!-- about -->
+    <div class="container-fluid"  id=about>
+        <div class="row">
+           
+            <div class="col-sm-6 offset-3 btn-light">
+                <h1 class="text-center">About</h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem iure mollitia repellendus
+                    sapiente illo? Fugiat perspiciatis nobis, a nulla temporibus dignissimos incidunt quos saepe
+                    necessitatibus voluptate, eius quibusdam, exercitationem eos! Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Quaerat eligendi veniam fuga consectetur. Officiis, odit? Delectus
+                    assumenda a sint laboriosam vero harum voluptate maiores aliquam! Accusantium sequi aliquid magnam
+                    possimus!
+                </p>
+            </div>
+            <div class="row d-flex">
+                <div class="col-sm">
+                    <img src="stats-img.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-sm mt-5 p-4 ps-3 pt-5 ms-5">
+                    <div class="d-flex align-items-center"><h1>111</h1> <h4>-happy client</h4></div>
+                    <div class="d-flex align-items-center"><h1>321</h1> <h4>-call center</h4></div>
+                    <div class="d-flex align-items-center" ><h1>786</h1> <h4>-feedback</h4></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about end -->
+
+    <!-- contact us -->
+ <div class="container-fluid">
+    <div class="row bg-light">
+        <h1 class="text-center mt-4">Contacts</h1>
+        <div class="col-sm-4 offset-4 mt-5"><div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Peshawar
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                <h5>Email:peshawar231@gmail.com</h5>
+                <h5>cell no : 0371-6382832</h5>
+                <h5>Address : main GT road peshawar</h5>
+                 <h5> Office timing :8:00 AM - 4:00PM </h5>
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                 Islamabad
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <h5>Email:Islamabad231@gmail.com</h5>
+                    <h5>cell no : 0371-5362832</h5>
+                    <h5>Address : main GT road islamabad</h5>
+                     <h5> Office timing 8:00 AM - 4:00PM </h5>
+    
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Lahore
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <h5>Email:lahore231@gmail.com</h5>
+                    <h5>cell no : 0371-5366434</h5>
+                    <h5>Address : main GT road lahore</h5>
+                     <h5> Office timing 8:00 AM - 4:00PM </h5>
+                </div>
+              </div>
+            </div>
+          </div></div>
+    </div>
+ </div>
+    
+
+
+
+<!-- footer -->
+<div class="container-fluid bg-dark mt-5 " id="">
+    <div class="row">
+        <div class="col-sm-2 offset-2 mt-5">
+            <ul >
+                <li>
+               <a class="text-decoration-none text-white" href=""><h5>Services</h5></a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-white"  href=""><h5>Source code</h5></a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-white"  href=""><h5>Benifits</h5></a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-white"  href=""><h5>Frenchise</h5></a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-2 mt-5"> <ul>
+            <li>
+                <a class="text-decoration-none text-white"  href=""><h5>Services</h5></a>
+            </li>
+            <li>
+                <a class="text-decoration-none text-white"  href=""><h5>Source code</h5></a>
+            </li>
+            <li>
+                <a class="text-decoration-none text-white"  href=""><h5>Benifits</h5></a>
+            </li>
+            <li>
+                <a class="text-decoration-none text-white"  href=""><h5>Frenchise</h5></a>
+            </li>
+        </ul></div>
+        <div class="col-sm-2 mt-5"> <ul>
+            <li>
+                <a class="text-decoration-none text-white"  href=""><h5>Services</h5></a>
+            </li>
+            <li>
+                <a class="text-decoration-none text-white"  href=""><h5>Source code</h5></a>
+            </li>
+            <li>
+                <a class="text-decoration-none text-white"  href=""><h5>Benifits</h5></a>
+            </li>
+            <li>
+                <a class="text-decoration-none text-white"  href=""><h5>Frenchise</h5></a>
+            </li>
+        </ul></div>
+        <div class="col-sm-2 mt-5"> <ul>
+            <li>
+                <a class="text-decoration-none text-white"  href=""><h5>Services</h5></a>
+            </li>
+            <li>
+                <a class="text-decoration-none text-white"  href=""><h5>Source code</h5></a>
+            </li>
+            <li>
+                <a class="text-decoration-none text-white"  href=""><h5>Benifits</h5></a>
+            </li>
+            <li>
+                <a class="text-decoration-none text-white"  href=""><h5>Frenchise</h5></a>
+            </li>
+        </ul></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p class="text-white text-center mt-5">© Copyright Impact. All Rights Reserved
+                Designed by BootstrapMade</p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>
